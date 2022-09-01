@@ -1,0 +1,55 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: serif;
+}
+
+body {
+    background-color: rgb(196, 230, 169);
+}
+
+.first,
+.second,
+.third {
+    box-sizing: border-box;
+    border-radius: 2rem;
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    margin: 10rem 10rem 20rem 10rem;
+    background-color: rgb(248, 239, 239);
+    color: rgb(69, 130, 69);
+
+}
+
+.second {
+    margin: 35rem 10rem 20rem 10rem;
+
+}
+
+.third {
+    margin: 35rem 10rem 20rem 10rem;
+    font-size: 3.5rem;
+}
+
+button {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-size: 2rem;
+    margin: 13rem 7rem 0rem 7rem;
+    background-color: rgb(49, 169, 49);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+
+
+}
+
+button.left {
+    float: left;
+}
+
+button.right {
+    float: right;
+}
